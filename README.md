@@ -34,3 +34,11 @@ python manage.py runserver
 ```
 3. Access the API at http://127.0.0.1:8000/.
 
+## API Endpoints
+- `/`: 
+  - **Description:** Endpoint to list all books.
+  
+  More endpoints for CRUD operations are under development and will be added soon.
+
+## Usage
+- Access the application at `http://127.0.0.1:8000/` to view the list of all books.
