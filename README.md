@@ -13,7 +13,7 @@ Before running the application, ensure you have the following installed:
 ## Installation
 1. Clone this repository to your local machine.
 ```bash
-git clone https://github.com/your-username/BooksApiDjango.git
+git clone https://github.com/GowthertG/BooksApiDjango.git
 ```
 2. Navigate to the project directory.
 ```bash
