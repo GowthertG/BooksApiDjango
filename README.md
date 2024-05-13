@@ -19,10 +19,37 @@ git clone https://github.com/GowthertG/BooksApiDjango.git
 ```bash
 cd BooksApiDjango
 ```
-3. Install the required dependencies.
-```bash
-pip install -r requirements.txt
-```
+## Setting up Virtual Environment and Install requirements
+
+1. Create a Virtual Environment:
+
+    Navigate to your project directory and run the following command to create a virtual environment named `.venv`:
+    
+    ```bash
+    python3 -m venv .venv
+    ```
+
+2. Activate the Virtual Environment:
+
+    - **macOS/Linux:**
+    
+        ```bash
+        source .venv/bin/activate
+        ```
+
+    - **Windows:**
+    
+        ```bash
+        .venv\Scripts\activate
+        ```
+
+3. Install requirements:
+
+    Run the following command to install requirements inside your virtual environment:
+    
+    ```bash
+    pip install -r requirements.txt
+    ```
 ## Running the Application
 1. Apply migrations to create the database schema.
 ```bash
